@@ -1,0 +1,143 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+/* body */
+body{
+    margin: 0;
+    background-color: rgb(70, 69, 69);
+}
+/* section */
+
+
+
+
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+}
+.headerContainer{
+    color: whitesmoke;
+    background-image:  url(https://p4.wallpaperbetter.com/wallpaper/193/219/663/black-background-marcus-aurelius-statue-hd-wallpaper-preview.jpg);
+    height: 400px;
+    width: 70rem;
+    display: flex;
+    justify-content:start ;
+    align-items: center ;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.5rem;
+    border-radius: 2px;
+}
+
+
+/* navbar */
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+#navbarList{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0%;
+}
+#navbarList, a{
+    color: aliceblue;
+
+}
+#navbarList, li :hover{
+    color: rgb(112, 113, 114);
+}
+/* cards section */
+#cardsSection{
+    /* background-color: blueviolet; */
+    height: 30rem;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+#cardsContainer{
+    background-color:white;
+    height: 95%;
+    width: 75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    border-radius:2px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+  
+}
+.card{
+    width: 300px;
+    height: 200px;
+    margin : 15px;
+    border-radius: 2px;
+    
+
+}
+.card:hover{
+    width: 310px;
+    height: 210px;
+}
+.card img{
+    width: 100%; 
+}
+.card:hover img {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    height: 10rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+#footerList{
+    display: flex;
+    flex-direction: row;
+   
+}
+.footerElement{
+   width: 50px;
+   height: 20px;
+   margin: 25px;
+   display: flex;
+   justify-content: center;
+}
